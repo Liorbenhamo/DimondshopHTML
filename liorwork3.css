@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(227, 203, 171);
+    background-image:url("https://www.kurtdiamonds.co.il/wp-content/uploads/2019/11/DSC_4459_L-scaled.jpg") ;
+    background-repeat: no-repeat;
+    background-size:100% 988px ;
+}
+#header1{
+    text-align: center;
+    color: rgb(130, 129, 129);
+    font-weight: bolder;
+    font-size: 8vw;
+    font-style: italic;
+    margin: top 500px;
+}
+#header2{
+color: rgb(93, 91, 91);
+text-align: center;
+font-weight: bolder;
+font-size: 6vw;
+font-style: italic;
+}
+.whitewindow{
+    margin-left:780px;
+    font-size: 25px;
+}
+
+button{
+    background-color:rgb(214, 211, 211);;
+    font-size: 20px;
+    width:196px ;height:100px ;
+    margin-left:-20px;
+}
+.silver{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: white;
+    width: 200px;
+    height:200px ;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left:370px;
+}
+#gold{
+    background-image:url("https://www.limordesign.co.il/wp-content/uploads/GRP7595.jpg") ;
+    background-repeat: no-repeat;
+    background-size:100% 1500px ;
+}
+.silve{
+    margin-left:430px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.silv{
+    margin-left:475px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#cat{
+    background-color:black;
+    color:white;
+    font-weight: bolder;
+    font-size: 2vw;
+    height: 40px;
+    text-align: center;
+}
+#op{ text-align: center}
+.dog{
+    color: rgb(197, 89, 89);
+}
+#polan{
+    background-color: white;
+}
+#mishel{
+    background:linear-gradient(
+         rgb(127, 72, 1),
+         white);
+}
+#op{
+    margin-left:25px;
+    font-size: 1.5vw;
+}
+.ooo{
+    display: flex;
+    justify-content: center;
+}
+#lama{
+    margin-left:20px; 
+}
+#pool{
+    background:linear-gradient(
+        rgb(179, 171, 171),
+        rgb(251, 247, 247));
+}
+#div10{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){button{
+    font-size: 3vw;
+    width:20vw ;height: 50px; 
+    display: flex ;
+    flex-direction: row;
+}
+}
+@media screen and (max-width: 768px){
+    .whitewindow{
+margin-left: unset;
+}
+
+
+
+}
+@media screen and (max-width: 768px){#pool{
+    background: unset;
+    }
+}
+    @media screen and (max-width: 768px){body{
+    background-size:100% 780px ;
+    }
+}
+@media screen and (max-width: 768px){.silver{
+    margin-left:0;
+    display: flex;
+    justify-content: center;
+
+    width: 50vw;
+
+    
+    }
+    #gold{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+}
